@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/ryuk"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="
+                      DeathNote"
+        android:textColor="#fff" />
+
+<EditText
+    android:id="@+id/nameField"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="41dp"
+    android:ems="10"
+     >
+
+        <requestFocus />
+    </EditText>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/nameField"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="46dp"
+    android:text="DELETE !!!" />
+
+<TextView
+    android:id="@+id/nameView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/button1"
+    android:layout_marginTop="102dp"
+    android:text=""
+    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

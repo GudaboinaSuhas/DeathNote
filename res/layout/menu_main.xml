@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/misa"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="39dp"
+        android:textSize="28sp"
+        android:text="@string/happy_birthday_misa"
+        android:textColor="#fff" />
+
+     <Button
+         android:id="@+id/b1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/b2"
+         android:layout_alignBottom="@+id/b2"
+         android:layout_alignLeft="@id/textView1"
+         android:layout_marginLeft="66dp"
+         android:text="Kira" />
+
+     <Button
+         android:id="@+id/b2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_marginBottom="33dp"
+         android:layout_marginLeft="17dp"
+         android:layout_toRightOf="@+id/b1"
+         android:text="Misaa" />
+
+</RelativeLayout>
